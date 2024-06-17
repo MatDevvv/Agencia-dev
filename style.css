@@ -1,0 +1,237 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'raleway',sans-serif;
+}
+.center{
+   display: flex;
+   max-width: 1100px;
+   padding: 0 2%;
+   margin: 0 auto;
+   flex-wrap: wrap;
+}
+section.main{
+    background-image: url(img/bg.svg);
+    background-position: center;
+    background-repeat: cover;
+    min-height: 750px;
+    padding: 20px 0 80px 0;
+
+
+
+}
+.menu{display: flex;width: 100%;}
+.logo-menu{width: 50%;}
+.itens-menu{width: 50%;text-align: right;}
+.itens-menu a{
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 10px;
+}
+.itens-menu a:hover{
+    border-bottom: 2px solid yellow;
+   
+}
+.itens-menu a.contact-btn{
+    background-color: rgba(17, 0, 255, 0.51);
+    border-radius: 10px;
+    padding: 10px 10px;
+
+}
+.itens-menu a.contact-btn:hover{
+    border: 0;
+}
+.mockup{
+    display: block;
+    width: 100%;
+    color: white;
+    text-align: center;
+    padding-top: 100px;
+}
+.mockup h1{
+    font-size: 70px;
+}
+.mockup p{
+    font-size: 25px;
+}
+section.marcas{
+    padding: 100px 0;
+}
+
+section.marcas img{
+    width: calc(100% / 5);
+}
+section.porque-nos{
+    padding: 20px 0;
+    background-color: #fbfcfe;
+    
+}
+section.porque-nos> .center > h2{
+    font-size: 64px;
+    text-align: center;
+    width: 100%;
+
+}
+section.porque-nos> .center > p{
+font-size: 16px;
+width: 100%;
+color: #636161;
+text-align: center;
+}
+.diferenciais{
+    display: flex;
+}
+.box-diferenciais{   
+    display: flex;
+    width: 100%;
+    margin-right: 2%;
+    border-radius: 10px;
+}
+.box-diferenciais h3{
+    font-size: 33px;
+    color: black;
+    margin: 20px 0 0 ; }
+section.cta{
+background-image: url(img/banner_meio.svg);
+padding: 20px 10;
+background-size: cover;
+background-position: center;
+min-height: 200px;
+text-align: center;
+color: white
+}
+section.cta h2,
+section.cta h4{
+    font-weight: normal;
+    margin: 10px 0;
+}
+section.cta h2{
+    font-size: 40px;
+    padding-top: 30px;
+}
+section.cta a{
+display: inline-block;
+padding: 8px 15px;
+font-weight: bold;
+font-size: 20px;
+border-radius: 10px;
+text-decoration: none;
+background-color: #FFDD33;
+color: #0F3FD3;
+
+}
+.lista-beneficios{
+width: 50%;
+}
+.img-beneficios{
+    display: flex;
+    width: 25%;
+   
+}
+.lista-beneficios span{
+
+    font-size: 20px;
+}
+.lista-beneficios img{
+    display: inline-block;
+    vertical-align: middle;
+    text-align: left;
+}
+.lista-beneficios span{
+    display:flex;
+    padding-top: 50px;
+    width: 100%;
+   
+}
+.lista-beneficios h1{
+    font-size: 40px;
+    text-align: center;
+   
+    
+}
+.depoimentos{
+    margin: 10px ;
+    font-size: 30px;
+    padding-top: 20px;
+}
+
+.footer{
+    width: 100%;
+    padding: 10px 0;
+    font-size: 20px;
+    text-align: center;
+    align-items: center;
+    background-color: #255AFF;
+    
+    padding-left: 50px;
+    display: flex;
+}
+.logo-menu img{
+    max-width: 235px;
+    padding: 0px;
+    box-sizing: border-box;
+    display: flex;
+    
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+ .logo-menu img{
+     display: flex;
+     width: 120px;
+ }
+ .itens-menu{
+     width: 100%;
+ }
+ .itens-menu a{
+     font-size: 10px;
+ }
+ .box-diferenciais{
+     width: 100%;
+     margin-right: 0;
+     }
+     .lista-beneficios,.img-beneficios{
+         width: 100%;
+         margin-bottom: 30px;
+     }
+     section.marcas img{
+     max-width: 100%;
+     width: 100%;
+     }
+     .mockup h1{
+     font-size: 30px;
+      }   
+      .mockup p{
+         font-size: 15px;
+      }
+      .img-beneficios img{
+         width: 0px;
+        
+      }
+      .footer a{
+         width: 100%;
+         margin: 0;
+         padding: 0;
+         font-size: 10px;
+      }
+      .box-diferenciais{
+         max-width: 100%;
+      }
+    .box-diferenciais img{
+     width: 100px;
+    }
+    .box-diferenciais h3{
+     width: 100%;
+     font-size: 20px;
+     display: flex;
+     flex-direction: column;
+     
+    }
+}
+                
+    
